@@ -1,0 +1,56 @@
+/* ---------------- พื้นหลังทั่วไป ---------------- */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(299deg, #ff1a1a, #000000);
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* ---------------- Layout ของ App.js ---------------- */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* ชิดขวา */
+  padding: 20px;
+  min-height: 100vh;
+  background-color: transparent;
+}
+
+/* Navbar (เมนู) */
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: #000000;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.nav-link:hover {
+  background-color: #8400ff;
+}
+
+/* กล่อง content */
+.content {
+  width: 100%;
+  max-width: none; /* เอา max-width ออก เพื่อให้เต็มกว้าง */
+  padding: 40px; /* เพิ่ม padding ให้ดูโปร่ง */
+  /* background-color: #000000; */
+  border-radius: 8px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+  align-self: flex-end;
+  box-sizing: border-box; /* ให้ padding ไม่ทำให้บล็อกใหญ่เกิน */
+}

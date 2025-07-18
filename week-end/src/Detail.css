@@ -1,0 +1,40 @@
+.detail-container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.detail-title {
+  font-size: 36px;
+  color: #ffa500;
+  text-shadow: 1px 1px 3px #000;
+  margin-bottom: 30px;
+}
+
+.detail-content {
+  background-color: #2b2b2b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.detail-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.steam-link,
+.email-link {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.steam-link:hover,
+.email-link:hover {
+  color: #ff69b4;
+  text-decoration: underline;
+}
